@@ -1,20 +1,15 @@
 
-
-
-
-
-
 /* banner-1 section */
 .banner-1 {
-  background-image: url('../assignment-1/Assets/—Pngtree—majestic\ winter\ mountainscape\ snow-covered\ peaks_16716938.png');
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  background-image: url('../assignment-1/Assets/Hero-bg.png');
+  background-repeat: no-repeat; 
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
-  position: relative;
+  background-color: #5c7dc3;
+  background-size: cover;
 }
 
 .banner-content {
@@ -29,8 +24,8 @@
 
 .logo {
   font-weight: bold;
-  font-size: 40px;
-  color: #4f46e5;
+  font-size: 60px;
+  color: darkblue;
 }
 
 /* Buttons */
@@ -55,7 +50,6 @@
   border: none;
   border-radius: 10px;
 }
-
 /* banner-1 text */
 .banner-text h1 {
   font-size: 50px;
@@ -307,9 +301,9 @@ button {
 }
 
 .footer-name {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 800;
-  color: #4f46e5;
+  color: darkblue;
   margin-bottom: 20px;
 }
 
@@ -332,4 +326,21 @@ button {
   text-decoration: none;
   font-size: 16px;
   color: #888;
+}
+/*button animation*/
+.btn{
+   background-color: #4f46e5;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.4s ease, transform 0.3s ease;
+  margin-bottom: 5px;
+}
+.btn:hover {
+  background: linear-gradient(135deg, red, gold);
+  transform: scale(1.05);
 }
