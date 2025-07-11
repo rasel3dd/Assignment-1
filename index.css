@@ -299,3 +299,37 @@ button {
   border-radius: 8px;
   font-weight: 500;
 }
+/* footer section*/
+.footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fafafa;
+}
+
+.footer-name {
+  font-size: 50px;
+  font-weight: 800;
+  color: #4f46e5;
+  margin-bottom: 20px;
+}
+
+.footer-sub-tittel {
+  font-size: 20px;
+  color: #888;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.5;
+}
+
+.footer-link{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  
+}
+
+.footer-link a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #888;
+}
