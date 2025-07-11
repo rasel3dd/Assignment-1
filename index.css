@@ -248,4 +248,54 @@ main{
   overflow: hidden;
   
 }
+/*touch section*/
+.touch-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  gap: 30px;
+}
+.touch-tittel {
+  font-size: 70px;
+  font-weight: 700;
+  margin: 5px;
+  line-height: 1.5;
+}
+.touch-left {
+  flex: 1;
+  min-width: 300px;
+}
+.touch-right {
+  flex: 1;
+  min-width: 300px;
+}
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+
+button {
+  padding: 14px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+}
