@@ -43,6 +43,7 @@
   font-size: 20px;
   padding: 12px 36px;
   border-radius: 10px;
+  border: none;
 }
 
 .btn-sf {
@@ -51,6 +52,7 @@
   font-weight: bold;
   font-size: 20px;
   padding: 12px 36px;
+  border: none;
   border-radius: 10px;
 }
 
@@ -61,3 +63,43 @@
   margin-bottom: 20px;
 }
 
+/*action*/
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  gap: 400px;
+}
+
+.action-text {
+  max-width: 400px;
+}
+
+.action-text h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+.action-text p {
+  font-size: 16px;
+  color: #777c8c;
+  margin-bottom: 20px;
+}
+
+.action-button {
+  background-color: #4c45e0;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+
+.action-image img {
+  max-width: 360px;
+  border-radius: 24px;
+}
